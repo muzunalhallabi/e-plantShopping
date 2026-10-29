@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+# Unused files from the previous static starter page.
+/script.js
+/style.css
