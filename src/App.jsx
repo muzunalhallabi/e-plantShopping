@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, NavLink, Route, Routes, useLocation } from 'react-router';
 import { useSelector } from 'react-redux';
 import AboutUs from './components/AboutUs.jsx';
 import CartItem from './components/CartItem.jsx';

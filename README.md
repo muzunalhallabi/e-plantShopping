@@ -2,6 +2,8 @@
 
 Paradise Nursery is a responsive houseplant shop built with React, React Router, and Redux Toolkit. Browse three collections of indoor plants, add favorites to your cart, adjust quantities, and see totals update immediately.
 
+Use Node.js 20.19+ or 22.12+ to run the Vite development server.
+
 ## Run locally
 
 ```bash

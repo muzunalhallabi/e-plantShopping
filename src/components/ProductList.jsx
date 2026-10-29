@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { addItem } from '../CartSlice.jsx';
 import { categories } from '../data/plants.js';
 
