@@ -21,19 +21,14 @@ For a production build, run `npm run build`. The generated site is written to `d
 
 ## Upload to GitHub
 
-The assignment asks for a **public repository named `e-plantShopping`**. The easiest option is GitHub Desktop:
+The project is already initialized as a local Git repository on the `main` branch, with an initial commit ready. The assignment asks for a **public repository named `e-plantShopping`**. The easiest option is GitHub Desktop:
 
 1. Sign in to GitHub Desktop and choose **File → Add Local Repository**. Select this project folder: `C:\Users\TheMu\Downloads\mmm`.
-2. If GitHub Desktop offers to create a repository here, create it with the name `e-plantShopping` and branch `main`.
-3. Commit the project files with a message such as `Build Paradise Nursery shopping app`.
-4. Choose **Publish repository**, set the repository name to `e-plantShopping`, make sure **Keep this code private** is unchecked, then publish.
+2. Choose **Publish repository**, set the repository name to `e-plantShopping`, make sure **Keep this code private** is unchecked, then publish.
 
-Or, after creating an empty public repository named `e-plantShopping` on GitHub, run these commands from this folder (replace `YOUR-USERNAME`):
+Or, create an empty public repository named `e-plantShopping` on GitHub, then run these commands from this folder (replace `YOUR-USERNAME`):
 
 ```bash
-git init -b main
-git add .
-git commit -m "Build Paradise Nursery shopping app"
 git remote add origin https://github.com/YOUR-USERNAME/e-plantShopping.git
 git push -u origin main
 ```
